@@ -61,6 +61,11 @@ public class CheckLgn extends BaseCtrllr{
 
             request.getSession().setAttribute(userSession.SESSION_USR_INFO,usr);
             //response.sendRedirect(contextPath+"/jsp/webconf/index.jsp");
+            //function
+
+
+
+            //跳转到个人页面
             return "/succ";
         }
 
